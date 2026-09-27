@@ -389,6 +389,10 @@ em { font-family: var(--serif); font-style: italic; }
   transition: transform 0.6s cubic-bezier(.2,.8,.2,1);
   background: var(--paper-2);
 }
+.case__visual--cover img {
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
 .case:hover .case__visual--img img { transform: translateY(-8px) rotate(-0.6deg); }
 .case--alt:hover .case__visual--img img { transform: translateY(-8px) rotate(0.6deg); }
 
